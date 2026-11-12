@@ -2,7 +2,7 @@
 
 A Tableau dashboard that analyzes the sales and deliveries of an Egyptian online store to track sales, find the best categories and cities, and see where deliveries are late.
 
-![Sales Overview](img1.png)
+![Sales Overview](img.png)
 
 ## Business Questions
 1. How much are we selling, and how are sales changing month by month?
@@ -59,10 +59,10 @@ A Tableau dashboard that analyzes the sales and deliveries of an Egyptian online
 ## Screenshots
 
 ### Sales Overview
-![Sales Overview](img1.png)
+![Sales Overview](img.png)
 
 ### Delivery & Customers
-![Delivery & Customers](img2.png)
+![Delivery & Customers](image.png)
 
 ## How to Open
 Download [`Online_Store_Dashboard.twb`](Online_Store_Dashboard.twb?raw=true) and [`online_store_orders.csv`](online_store_orders.csv?raw=true) into the same folder. Open the `.twb` file in [Tableau Public](https://www.tableau.com/products/public) or Tableau Desktop (free). If Tableau asks for the data file, point it to `online_store_orders.csv`.
