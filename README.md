@@ -18,7 +18,7 @@ A Tableau dashboard that analyzes the sales and deliveries of an Egyptian online
 
 ## Tools & Skills
 - **SQL:** basic queries in `analysis.sql` (SUM, COUNT, AVG, GROUP BY, ORDER BY, CASE)
-- **Tableau:** calculated fields, KPI cards, charts, two dashboards
+- **Tableau:** calculated fields, KPI cards, charts, two dashboards, dropdown filters, dashboard filter actions
 - **KPI reporting:** total sales, average order value, late rate, average rating
 
 ## Key Calculated Fields
@@ -34,6 +34,10 @@ A Tableau dashboard that analyzes the sales and deliveries of an Egyptian online
 ## Dashboard Pages
 1. **Sales Overview:** KPI cards (Total Sales, Orders, Avg Order Value), monthly sales trend, sales by category, sales by city
 2. **Delivery & Customers:** KPI cards (Late Rate, Avg Delivery Days, Avg Rating), late rate by city, average rating by delivery status, orders by payment method
+
+## Interactive Filters
+- **Dropdown filters** for **Year**, **Category** and **City** at the top of both dashboards. A filter applies to both dashboards at once (e.g. choose *Sohag* and every chart and KPI shows Sohag only).
+- **Click to filter:** click a city, category or payment method in a chart and the rest of the dashboard filters to it. Click it again to reset.
 
 ## Key Insights
 - **5,000 orders** with total sales of **EGP 7.21M** and an average order value of **EGP 1,443**.
